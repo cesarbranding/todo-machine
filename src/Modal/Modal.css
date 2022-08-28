@@ -1,0 +1,60 @@
+.ModalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.Modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    z-index: 101;
+}
+
+.Modal-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.Modal-close-button:hover, .Modal-close-button:active {
+    color: red;
+}
+
+
+.ModalHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.ModalContent {
+    margin-bottom: 16px;
+}
+
+.ModalActions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ModalActions button {
+    margin: 0 8px;
+}
+
+/* Language: css */

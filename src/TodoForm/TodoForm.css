@@ -1,0 +1,85 @@
+
+.TodoForm {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.TodoForm-title {
+    font-size: 24px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #06113C;
+}
+
+.TodoForm-buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.TodoForm-button {
+    background-color: #FF8C32;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FAFAFA;
+    height: 64px;
+    width: 128px;
+    margin-left: 16px;
+}
+
+.TodoForm-button:hover {
+    background-color: #FFA500;
+}
+
+.TodoForm-button:focus {
+    outline: none;
+}
+
+.TodoForm-button:active {
+    background-color: #FFA500;
+}
+
+.TodoForm-button--cancel {
+    background-color: #FF0000;
+}
+
+.TodoForm-button--cancel:hover {
+    background-color: #FF6347;
+}
+
+.TodoForm-button--cancel:focus {
+    outline: none;
+}
+
+.TodoForm-button--cancel:active {
+    background-color: #FF6347;
+}
+
+.TodoForm-textarea {
+    border: 1px solid #FF8C32;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 16px;
+    resize: none;
+    width: 100%;
+}
+

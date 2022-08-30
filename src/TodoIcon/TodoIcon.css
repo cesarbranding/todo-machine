@@ -15,6 +15,8 @@
   position: absolute;
   top: -24px;
   right: 0;
+  background-color: #FF8C32;
+  border-radius: 50%;
 }
 
 .Icon-svg {

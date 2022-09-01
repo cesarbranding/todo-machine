@@ -6,6 +6,11 @@
     margin-bottom: 24px;
 }
 
+.TodoCounter--loading {
+    color: #FF8C32;
+    animation: TodoCounter--loading 1s infinite;
+}
+
 /* Language: css */
 
 /* Path: src\TodoFilter.css */
